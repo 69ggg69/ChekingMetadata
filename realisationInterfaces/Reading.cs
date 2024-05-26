@@ -11,7 +11,7 @@ namespace ChekingMetadata.realisationInterfaces
         {
             try
             {
-                return reader.ReadMetadata(imagePath);
+                return re.ReadMetadata(imagePath);
             }
             catch (ImageProcessingException ex)
             {

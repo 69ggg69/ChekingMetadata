@@ -39,8 +39,8 @@ namespace ChekingMetadata.realisationInterfaces
             {
                 try
                 {
-                    var directories = _metadataReader.ReadMetadata(imagePath);
-                    bool isPhotoshopped = _imageAnalyzer.IsPhotoshopped(directories);
+                    var imgMetadata = _metadataReader.ReadMetadata(imagePath);
+                    bool isPhotoshopped = _imageAnalyzer.IsPhotoshopped(imgMetadata);
 
                     if (isPhotoshopped)
                     {
