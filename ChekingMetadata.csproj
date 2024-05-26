@@ -97,14 +97,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="interfaces\ImageAnalyzer.cs" />
-    <Compile Include="interfaces\ImageMetadataReader.cs" />
-    <Compile Include="interfaces\ImageProcessor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="realisationInterfaces\Analysis.cs" />
-    <Compile Include="realisationInterfaces\Reading.cs" />
-    <Compile Include="realisationInterfaces\Processing.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
